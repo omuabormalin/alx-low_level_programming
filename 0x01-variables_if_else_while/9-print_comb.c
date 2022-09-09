@@ -13,7 +13,7 @@ putchar(a + 0);
 if (a > 0)
 {
 putchar(',');
-putchar(' ')'
+putchar(' ');
 }
 putchar('\n');
 return (0);
