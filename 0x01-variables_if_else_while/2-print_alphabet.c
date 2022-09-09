@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
 * main - this is my entry poin
-* return: 0 (success)
+* Return: 0 (success)
 */
 
 int main(void)
