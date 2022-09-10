@@ -11,19 +11,17 @@ int a;
 int b;
 for (a = 0; a <= 9; a++)
 {
-for (b = 0; b <= 9; b++)
+for (b = 1; b <= 9; b++)
 {
-if (a == b && a < b)
-putchar(a);
-putchar(b);
-if (b == 9 && a !==8)
+if (b > a)
 {
-break
-;
-}
+putchar(a + '0');
+putchar(b + '0');
+if (a != 8)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
