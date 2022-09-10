@@ -16,7 +16,7 @@ for (b = 1; b <= 9; b++)
 putchar(a + '0');
 putchar(b + '0');
 
-if (!(a == 9 && b == 9))
+if (a == 9 && b != 9)
 
 {
 putchar(',');
