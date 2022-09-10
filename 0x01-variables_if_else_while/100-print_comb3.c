@@ -18,7 +18,7 @@ putchar(b + '0');
 if (!(a == 9 && b == 9))
 {
 putchar(',');
-pitchar(' ');
+putchar(' ');
 }
 }
 }
