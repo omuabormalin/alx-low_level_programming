@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-*_islower - print loewer case
-*Return is zero 0
+*_islower - for lower case return 1
+*else, returns 0
+*Return: is zero  for upper case and 1 for lower case
 */
 
 int _islower(int c)
