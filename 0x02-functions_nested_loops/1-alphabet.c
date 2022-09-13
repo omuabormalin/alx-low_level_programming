@@ -5,7 +5,7 @@
 * Return: will be 0 (success)
 */
 
-int void print_alphabet(void);
+int print_alphabet(void);
 {
 char s;
 for (s = "a" ; s <= "z" ; s++)
