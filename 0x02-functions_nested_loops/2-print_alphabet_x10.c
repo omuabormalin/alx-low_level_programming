@@ -11,7 +11,9 @@ int w;
 for (w = 0; w <= 10; w++)
 {
 for (m = 'a'; m <= 'z'; m++)
+{
 _putchar(m);
+}
 _putchar('\n');
 }
 return (0);
