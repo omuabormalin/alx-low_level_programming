@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*int _islower - print loewer case
+*_islower - print loewer case
 *Return is zero 0
 */
 
