@@ -7,12 +7,12 @@
 int main(void)
 {
 int a;
-
+char s = _putchar
 for (a = 0; a <= 9; a++)
 
 if (a > 0)
 {
-_putchar("_putchar",a);
+_putchar(s,a);
 _putchar('\n');
 break;
 }
