@@ -1,4 +1,4 @@
-#include @main.h@
+#include "main.h"
 /**
 *_isalpha - Retuns 1 if char c is a letter,
 *and a lowercase or uppercase*
@@ -15,5 +15,6 @@ return (1);
 else
 {
 return (0);
+}
 _putchar('\n');
 }
