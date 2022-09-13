@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*int _islower(int c) - print loewer case
-*Return is zero
+*int _islower - print loewer case
+*Return is zero 0
 */
 
 int _islower(int c)
