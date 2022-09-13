@@ -7,7 +7,7 @@
 int main(void)
 {
 int a;
-char s ="_putchar";
+char s = "_putchar";
 for (a = 0; a <= 9; a++)
 
 if (a > 0)
