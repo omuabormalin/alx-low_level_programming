@@ -6,15 +6,7 @@
 
 int main(void)
 {
-int a;
-char s = "_putchar";
-for (a = 0; a <= 9; a++)
-
-if (a > 0)
-{
-_putchar(a);
-_putchar("%s\n",s);
-break;
-}
+_putchar('putchar');
+_putchar('\n');
 return (0);
 }
