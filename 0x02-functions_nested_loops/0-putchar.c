@@ -4,15 +4,15 @@
 *Return: 0
 */
 
-int main(void)
+iint main(void)
 {
-int a;
+int a=s;
 char s = "_putchar";
 for (a = 0; a <= 9; a++)
 
 if (a > 0)
 {
-_putchar(s);
+_putchar(a);
 _putchar('\n');
 break;
 }
