@@ -11,8 +11,8 @@ int i;
 i = n % 10;
 if (i < 0)
 {
-_putchar(-l + 48);
-return (-l);
+_putchar(-i + 48);
+return (-1);
 }
 else
 {
