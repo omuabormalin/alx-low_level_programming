@@ -2,7 +2,7 @@
 
 /**
 * main - this is to print alphabets in lower cases
-* Return: will be 0 (success)
+* Return: void
 */
 
 void print_alphabet_x10(void)
