@@ -2,7 +2,7 @@
 /**
 *_islower - for lower case return 1
 *else, returns 0
-@c: the character for the ACII
+*@c: the character for the ACII
 *Return: is zero  for upper case and 1 for lower case
 */
 
