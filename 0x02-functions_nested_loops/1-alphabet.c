@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
 * main - this is to print alphabets in lower cases
@@ -10,7 +10,7 @@ int print_alphabet(void);
 char s;
 for (s = "a" ; s <= "z" ; s++)
 {
-putchar("%s\"n, s);
+putchar("%s\n", s);
 }
 return (0);
 }
