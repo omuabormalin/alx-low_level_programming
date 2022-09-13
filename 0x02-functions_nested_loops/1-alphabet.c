@@ -5,12 +5,12 @@
 * Return: will be 0 (success)
 */
 
-int print_alphabet(void);
+void print_alphabet_x10(void)
 {
 char s;
-for (s = "a" ; s <= "z" ; s++)
+for (s = 1; s <= 27; s++)
 {
-putchar("%s\n", s);
+putchar( s);
 }
-return (0);
+putchar('\n);
 }
