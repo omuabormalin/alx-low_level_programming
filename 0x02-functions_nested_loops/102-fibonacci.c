@@ -4,9 +4,9 @@
 *Return: i tire
 */
 
-intmain (void)
+int main (void)
 {
-long int i, j, k, i;
+long int i, j, k, l;
 j = 1;
 k = 2;
 for (i = 1; i <= 50; ++i)
@@ -19,9 +19,9 @@ else
 {
 printf("%ld\n", j);
 }
-i = j + k;
+l = j + k;
 j = k;
-k = i;
+k = l;
 }
 return (0);
 }
