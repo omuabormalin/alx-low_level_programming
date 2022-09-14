@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
-*main - anyhinh
+/**
+*main - 102-fibonacci.c
+*description: this is to add the first number to the answer and so on
 *Return: i tire
 */
 
