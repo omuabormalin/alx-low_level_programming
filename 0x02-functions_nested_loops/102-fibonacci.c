@@ -4,7 +4,7 @@
 *Return: i tire
 */
 
-int main (void)
+int main(void)
 {
 long int i, j, k, l;
 j = 1;
