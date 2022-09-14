@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *main - my main code
-*Return: possitive or negative
+*Return: 0
 */
 
 int main(void)
