@@ -6,7 +6,7 @@
 int main(void)
 {
 int i;
-unsigned ling int a, b, c, d;
+unsigned long int a, b, c, d;
 j = 1;
 k = 2;
 m = 0;
