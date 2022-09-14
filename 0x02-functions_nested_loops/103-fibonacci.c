@@ -5,21 +5,21 @@
 */
 int main(void)
 {
-int i
+int i;
 unsigned ling int a, b, c, d;
 j = 1;
 k = 2;
 m = 0;
 for (i = 1; i <= 33; i++)
 {
-if(j < 4000000 && (j % 2) == 0)
+if (j < 4000000 && (j % 2) == 0)
 {
-m = m+ j;
+m = m + j;
 }
-l = j +k;
+l = j + k;
 j = k;
 k = l;
 }
-printf("%lu\n",m);
+printf("%lu\n", m);
 return (0);
 }
