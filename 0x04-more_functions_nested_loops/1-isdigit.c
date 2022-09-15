@@ -3,13 +3,13 @@
 /**
 *_isdigit - shows digits
 *@c: holds the value
-*Return: always zero is a success#
+*Return: 1 or 0
 */
 
 int _isdigit(int c)
 {
 
-if (c >= 0 && c <= 9)
+if (c >= 48 && c < 58)
 {
 return (1);
 }
