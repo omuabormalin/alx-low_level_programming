@@ -2,7 +2,6 @@
 /**
  * puts2 - print first char
  * @str: the var char
- * Return: the end value
  */
 void puts2(char *str)
 {
