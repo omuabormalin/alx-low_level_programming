@@ -4,7 +4,7 @@
  * @s: the var character
  * Return: the value
  */
-oid rev_string(char *s)
+void rev_string(char *s)
 {
 	int i, e, f;
 	char first, last;
