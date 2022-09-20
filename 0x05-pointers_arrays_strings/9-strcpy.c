@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - carries my main code
  * _strcpy - update value.
  * @dest: value to be evaluate.
  * @src: value to be evaluate
