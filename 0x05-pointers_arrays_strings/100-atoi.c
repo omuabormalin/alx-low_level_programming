@@ -1,67 +1,48 @@
-include "main.h"
-
+#include "main.h"
+#include <stdio.h>
 /**
- *
- *  * _atoi - converts strings to integers
- *
- *   * @s: parameter
- *
- *    * Return: anything
- *
- *     */
+ * _atoi - e code
+ * Return: Always 0.
+ */
 
 int _atoi(char *s)
-
 {
-
-		unsigned int count = 0, size = 0, j = 0, k = 1, m = 1, i;
-
-
-
-			while (*(s + count) != '\0')
-
-					{
-
-								if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
-
-												break;
+	 int nb;
 
 
 
-										if (*(s + count) == '-')
+	     nb = _atoi("98");
 
-														k *= -1;
+	         printf("%d\n", nb);
 
+		     nb = _atoi("-402");
 
+		         printf("%d\n", nb);
 
-												if ((*(s + count) >= '0') && (*(s + count) <= '9'))
+			     nb = _atoi("          ------++++++-----+++++--98");
 
-															{
+			         printf("%d\n", nb);
 
-																			if (size > 0)
+				     nb = _atoi("214748364");
 
-																								m *= 10;
+				         printf("%d\n", nb);
 
-																						size++;
+					     nb = _atoi("0");
 
-																								}
+					         printf("%d\n", nb);
 
-														count++;
+						     nb = _atoi("Suite 402");
 
-															}
+						         printf("%d\n", nb);
 
-				for (i = count - size; i < count; i++)
+							     nb = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
 
-						{
+							         printf("%d\n", nb);
 
-									j = j + ((*(s + i) - 48) * m);
+								     nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
 
-											m /= 10;
+								         printf("%d\n", nb);
 
-												}
-
-					return (j * k);
+									     return (0);
 
 }
-
-
