@@ -5,7 +5,7 @@
  * @src: variable
  * Return: dest
  */
-char *_strcat(char *desyt, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
