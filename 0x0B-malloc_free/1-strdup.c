@@ -1,5 +1,5 @@
 #include "main.h"
-/*8
+/**
  * _strlen - count array
  * @s: array of elements
  * Return: 1
