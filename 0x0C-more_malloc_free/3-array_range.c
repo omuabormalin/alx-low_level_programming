@@ -1,5 +1,5 @@
 #include "main.h"
-/*8
+/**
  * array_range - creates an array of integers
  * @min: minimum
  * @max: maximum
