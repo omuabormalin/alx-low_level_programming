@@ -1,5 +1,5 @@
 #include "main.h"
-/*8
+/**
  * _realloc -  reallocates a memory block using malloc and free
  * @ptr: pointer
  * @old_size: old size
