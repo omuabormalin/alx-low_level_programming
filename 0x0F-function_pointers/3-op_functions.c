@@ -1,5 +1,5 @@
 #include "3-calc.h"
-/*8
+/**
  * op_add - calculates the sum of two integers
  *  @a: first integer
  *  @b: second integer
