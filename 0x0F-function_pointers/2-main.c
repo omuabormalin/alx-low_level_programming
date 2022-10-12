@@ -3,6 +3,7 @@
 /**
  * is_98 - checks if a number is equal to 98
  *  @elem: the integer to check
+ *
  *  Return: 0 if false, something else otherwise.
  */
 int is_98(int elem)
@@ -12,6 +13,7 @@ int is_98(int elem)
 /**
  * is_strictly_positive - check if a number is greater than 0
  * @elem: the integer to check
+ *
  * Return: 0 if false, something else otherwise
  */
 int is_strictly_positive(int elem)
@@ -22,6 +24,7 @@ int is_strictly_positive(int elem)
 /**
  * abs_is_98 - check if the absolute value of a number is 98
  * @elem: the integer to check
+ *
  * Return: 0 if false, something else otherwise
  */
 int abs_is_98(int elem)
@@ -31,6 +34,7 @@ int abs_is_98(int elem)
 }
 /**
  * main - check code
+ *
  * Return: Always 0
  */
 int main(void)
