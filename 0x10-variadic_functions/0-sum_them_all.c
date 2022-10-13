@@ -1,26 +1,20 @@
-#include <stdarg.h>
-#include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_numbers - prints numbers, followed by a new line
- * @separator: separator to print between numbers
- * @n: number of numbers to print
- * Return: void
+ * sum_them_all - calculates the sum of all its parameters
+ *  @n: number of arguments passed to the function
+ *
+ *  Return: the resulting sum
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+ int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
-	int num;
-	va_list valist;
+	int sum = 0;
+	va_list list;
 
-	va_start(valist, n);
+	va_start(list, n);
+
 	for (i = 0; i < n; i++)
-	{
-		num = va_arg(valist, int);
-		printf("%d", num);
-		if (i < n - 1 && separator)
-			printf("%s", separator);
-	}
-	printf("\n");
-	va_end(valist);
+		sum += va_arg(list, int);
+	va_end(list);
+	return (sum);
 }
