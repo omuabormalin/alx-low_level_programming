@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <string.h>
 
-/*8
+/**
  * add_node - Adds a new node at the beginning
  * @head: A pointer to the head of the list_t list.
  * @str: The string to be added to the list_t list.
